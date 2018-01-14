@@ -1,0 +1,2 @@
+# bidsm
+Dedicated server manager
