@@ -1,2 +1,78 @@
 21:00:53.877 [main] TRACE top - Test
 21:01:08.060 [main] TRACE top - Test
+10:46:25.242 [main] TRACE top - Test
+18:29:15.131 [main] ERROR Server.Server - Server starting!
+18:29:27.184 [main] INFO  Server.Server - Server starting!
+20:08:20.658 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:08:34.038 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/test?user=Testlord&password=anotherone
+20:08:50.955 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:08:51.348 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:09:22.396 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:09:22.435 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/test?user=Testlord&password=anotherone
+20:09:23.613 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:09:23.614 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:12:05.941 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:13:04.222 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:13:04.254 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://127.0.0.1/test?user=Testlord&password=anotherone
+20:13:05.404 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:13:05.409 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:18:10.985 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+20:18:10.989 [main] DEBUG Server.Database.Database - The ip string is: 127.0.0.1
+20:18:10.989 [main] DEBUG Server.Database.Database - InetAdress was build from string
+20:18:10.990 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:18:11.021 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://127.0.0.1/test?user=Testlord&password=anotherone
+20:18:12.140 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:18:12.140 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:37:15.205 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+20:37:15.231 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+20:37:15.232 [main] DEBUG Server.Database.Database - InetAdress was build from string
+20:37:15.233 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:37:15.249 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/test?user=testuser&password=gMS8ynaKEIIv6Oiy
+20:37:16.419 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:37:16.421 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:38:47.652 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+20:38:47.657 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+20:38:47.662 [main] DEBUG Server.Database.Database - InetAdress was build from string
+20:38:47.666 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:38:47.691 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/test?user=testuser&password=gMS8ynaKEIIv6Oiy
+20:38:48.804 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:38:48.805 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:39:33.612 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+20:39:33.616 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+20:39:33.619 [main] DEBUG Server.Database.Database - InetAdress was build from string
+20:39:33.620 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:39:33.641 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsmtest01?user=testuser&password=gMS8ynaKEIIv6Oiy
+20:39:34.796 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:39:34.796 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:42:56.122 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+20:42:56.127 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+20:42:56.132 [main] DEBUG Server.Database.Database - InetAdress was build from string
+20:42:56.142 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:42:56.168 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsmtest01?user=testUser&password=gMS8ynaKEIIv6Oiy
+20:42:57.308 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:42:57.309 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:47:46.025 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+20:47:46.029 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+20:47:46.034 [main] DEBUG Server.Database.Database - InetAdress was build from string
+20:47:46.035 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+20:47:46.048 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsmtest01?user=testUser&password=gMS8ynaKEIIv6Oiy
+20:47:47.173 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:47:47.173 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.

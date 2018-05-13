@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bidsm">
+    <output-path>D:/BIDSM01</output-path>
+    <root id="archive" name="bidsm.jar">
+      <element id="module-output" name="bidsm" />
+    </root>
+  </artifact>
+</component>

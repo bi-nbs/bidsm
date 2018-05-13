@@ -1,0 +1,37 @@
+18:29:15.131 [main] ERROR Server.Server - Server starting!
+20:08:50.955 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:08:51.348 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:09:23.613 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:09:23.614 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:13:05.404 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:13:05.409 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:18:12.140 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:18:12.140 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:37:16.419 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:37:16.421 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:38:48.804 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:38:48.805 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:39:34.796 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:39:34.796 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:42:57.308 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:42:57.309 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+20:47:47.173 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+20:47:47.173 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
