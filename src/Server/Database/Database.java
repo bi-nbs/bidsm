@@ -62,6 +62,10 @@ public abstract class Database {
      */
     public abstract void openConnection();
 
+    /**
+     * Function returns true if there is an open connection to the database.
+     * @return Returns a bool that is true if the database connection is open and false if it is closed.
+     */
     boolean isConnectionOpen() {
         return connectionOpen;
     }
