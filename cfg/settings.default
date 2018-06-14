@@ -1,0 +1,9 @@
+#General settings
+testprop=derpalerpa
+
+#SQL settings
+databaseName = none
+databaseUsername = none
+databasePassword = none
+databaseIpaddress = none
+databaseType = none

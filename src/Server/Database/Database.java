@@ -11,7 +11,7 @@ import java.net.UnknownHostException;
 /**
  * Abstract database class that will be used to model a database connection.
  */
-public abstract class Database {
+abstract class Database {
     private final String name;
     private final String username;
     private final String password;
@@ -27,7 +27,7 @@ public abstract class Database {
      * @param password Password for the database
      * @param ip This should be the ip of the mysql server. It must have the following format xxx.xxx.xxx.xxx, example: 192.168.0.12.
      */
-    public Database(String name,String username, String password, String ip) {
+    Database(String name,String username, String password, String ip) {
         this.name = name;
         this.username = username;
         this.password = password;
@@ -63,12 +63,15 @@ public abstract class Database {
     public abstract void openConnection();
 
     /**
+     * This abstract class must be implemented and should close a connection to the specified database.
+     */
+    public abstract void closeConnection();
+
+    /**
      * Function returns true if there is an open connection to the database.
      * @return Returns a bool that is true if the database connection is open and false if it is closed.
      */
-    public boolean isConnectionOpen() {
-        return connectionOpen;
-    }
+    public abstract boolean isConnectionOpen();
 
     protected void setConnectionOpen(boolean connectionOpen) {
         this.connectionOpen = connectionOpen;

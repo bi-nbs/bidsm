@@ -4,7 +4,8 @@ import java.net.InetAddress;
 
 public class WindowsHost extends Host {
 
-    public WindowsHost(int ID, InetAddress ip) {
-        super(ID, ip);
+
+    public WindowsHost(int ID, InetAddress ip, String name) {
+        super(ID, ip, name);
     }
 }

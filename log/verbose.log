@@ -76,3 +76,348 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 20:47:47.173 [main] ERROR Server.Database.MySQLDatabase - Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+13:25:32.357 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+13:25:32.363 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+13:25:32.365 [main] DEBUG Server.Database.Database - InetAdress was build from string
+13:25:32.366 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+13:25:32.373 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr
+13:25:32.548 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+13:25:32.550 [main] ERROR Server.Database.MySQLDatabase - The server time zone value 'CEST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+13:32:34.953 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+13:32:34.956 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+13:32:34.958 [main] DEBUG Server.Database.Database - InetAdress was build from string
+13:32:34.958 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+13:32:34.971 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+13:32:35.162 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+13:32:35.162 [main] ERROR Server.Database.MySQLDatabase - The server time zone value 'CEST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+13:37:10.927 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+13:37:10.950 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+13:37:10.955 [main] DEBUG Server.Database.Database - InetAdress was build from string
+13:37:10.959 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+13:37:10.996 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+13:37:11.277 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+13:37:39.869 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+13:37:39.875 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+13:37:39.877 [main] DEBUG Server.Database.Database - InetAdress was build from string
+13:37:39.878 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+13:37:39.889 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+13:37:40.159 [main] ERROR Server.Database.MySQLDatabase - Connection to database failed
+13:37:40.159 [main] ERROR Server.Database.MySQLDatabase - The server time zone value 'CEST' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+13:39:01.489 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+13:39:01.493 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+13:39:01.495 [main] DEBUG Server.Database.Database - InetAdress was build from string
+13:39:01.496 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+13:39:01.511 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+13:39:01.755 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+14:58:54.734 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+14:58:54.739 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+14:58:56.997 [main] DEBUG Server.Database.Database - InetAdress was build from string
+14:58:57.000 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+14:58:57.059 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+14:58:57.355 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:01:01.127 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:01:01.133 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:01:01.136 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:01:01.137 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:01:01.153 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:01:01.372 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:01:14.273 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:01:14.274 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:01:14.277 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:01:14.278 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:01:14.304 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:01:14.530 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:03:54.566 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:03:54.569 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:03:54.570 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:03:54.571 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:03:54.592 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:03:54.787 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:03:54.787 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:03:54.787 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:03:54.788 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:09:32.543 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:09:32.547 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:09:32.564 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:09:32.567 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:10:54.704 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:10:54.708 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:10:54.709 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:10:54.710 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:10:54.740 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:10:54.741 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:10:54.741 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:12:15.493 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:12:15.494 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:12:15.497 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:12:15.498 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:12:15.511 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:12:15.832 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:12:15.832 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:12:15.832 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:15:00.606 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:00.610 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:00.612 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:00.612 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:00.631 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:15:00.899 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:15:09.101 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:09.104 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:09.106 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:09.107 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:09.151 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:15:09.561 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:15:09.561 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:09.561 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:15:09.568 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:09.568 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:09.569 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:09.578 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:09.578 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:09.578 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:09.578 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:09.578 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:15:09.586 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:15:28.116 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:28.119 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:28.120 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:28.121 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:28.179 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:15:28.549 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:15:28.549 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:28.549 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:15:28.554 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:28.554 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:28.555 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:28.555 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:28.555 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:15:28.559 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:15:28.559 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:15:28.559 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:15:28.560 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:15:28.562 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:15:28.562 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:15:28.562 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:15:28.562 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:15:28.562 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:15:28.573 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:17:00.435 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:17:00.438 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:17:00.465 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:17:00.465 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:17:00.482 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:17:00.701 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:17:00.701 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:17:00.701 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:17:00.707 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:17:00.707 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:17:00.707 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:17:00.708 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:17:00.708 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:17:00.714 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:17:00.715 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:17:00.715 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:17:00.716 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:17:00.718 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:17:00.718 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:17:00.718 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:17:00.718 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:17:00.719 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:17:00.724 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:17:00.725 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:17:00.725 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:17:00.725 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:17:00.725 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:17:00.725 [main] INFO  Server.Database.MySQLDatabase - Connection is already closed
+15:17:00.726 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:17:00.726 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:17:00.726 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:17:00.726 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:17:00.726 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:17:00.738 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:56:23.197 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:56:23.202 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:56:23.213 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:56:23.214 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:56:23.227 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.228 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:56:23.500 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:56:23.500 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:56:23.501 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.501 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:56:23.501 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:56:23.501 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.501 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:56:23.506 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:56:23.506 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:56:23.506 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:56:23.506 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:56:23.506 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.506 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:56:23.536 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:56:23.536 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.536 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:56:23.536 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:56:23.537 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.537 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:56:23.537 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:56:23.537 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:56:23.538 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.538 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: true
+15:56:23.539 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:56:23.539 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:56:23.540 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:56:23.540 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:56:23.540 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.540 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:56:23.550 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:56:23.551 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.551 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:56:23.551 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:56:23.551 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.551 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:56:23.551 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:56:23.551 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:56:23.551 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:56:23.552 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.552 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: true
+15:56:23.552 [main] INFO  Server.Database.MySQLDatabase - Connection is already closed
+15:56:23.552 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.552 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: true
+15:56:23.553 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:56:23.553 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:56:23.553 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:56:23.553 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:56:23.553 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.553 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:56:23.571 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:56:23.571 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:56:23.571 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.341 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:57:39.349 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:57:39.350 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:57:39.352 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:57:39.369 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.369 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is closed
+15:57:39.369 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:57:39.689 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:57:39.689 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:57:39.689 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.689 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.689 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.690 [main] INFO  Server.Database.MySQLDatabase - Database connection is already opened
+15:57:39.690 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.690 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.690 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.695 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:57:39.695 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:57:39.695 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:57:39.695 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:57:39.695 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.695 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is closed
+15:57:39.696 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:57:39.724 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:57:39.724 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.725 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.725 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.725 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:57:39.725 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.725 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.725 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.725 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:57:39.726 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:57:39.726 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.726 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: true
+15:57:39.726 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.728 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:57:39.728 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:57:39.728 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:57:39.728 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:57:39.729 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.729 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is closed
+15:57:39.729 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:57:39.734 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.735 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.735 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+15:57:39.735 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
+15:57:39.735 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+15:57:39.735 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.736 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: true
+15:57:39.736 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.736 [main] INFO  Server.Database.MySQLDatabase - Connection is already closed
+15:57:39.736 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.736 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: true
+15:57:39.736 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+15:57:39.737 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+15:57:39.737 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+15:57:39.737 [main] DEBUG Server.Database.Database - InetAdress was build from string
+15:57:39.737 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+15:57:39.738 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.738 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is closed
+15:57:39.738 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+15:57:39.750 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+15:57:39.750 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+15:57:39.750 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+15:57:39.750 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+17:21:09.052 [main] INFO  Server.testServerProperties - Printing all properties
+17:21:09.055 [main] DEBUG Server.testServerProperties - null
+17:21:27.267 [main] INFO  Server.testServerProperties - Printing all properties
+17:21:27.271 [main] DEBUG Server.testServerProperties - default
+17:21:50.078 [main] INFO  Server.testServerProperties - Printing all properties
+17:21:50.082 [main] DEBUG Server.testServerProperties - default
+17:22:07.269 [main] INFO  Server.testServerProperties - Printing all properties
+17:22:07.272 [main] DEBUG Server.testServerProperties - default
+17:23:10.389 [main] INFO  Server.testServerProperties - Printing all properties
+17:23:10.394 [main] DEBUG Server.testServerProperties - default
+17:23:15.664 [main] INFO  Server.testServerProperties - Printing all properties
+17:23:15.669 [main] DEBUG Server.testServerProperties - default
+17:24:11.073 [main] INFO  Server.testServerProperties - Printing all properties
+17:24:11.079 [main] DEBUG Server.testServerProperties - derpalerpa
+17:25:10.459 [main] INFO  Server.testServerProperties - Printing all properties
+17:25:10.464 [main] DEBUG Server.testServerProperties - derpalerpa
+17:32:03.133 [main] INFO  Server.testServerProperties - Printing all properties
+17:32:03.168 [main] DEBUG Server.testServerProperties - derpalerpa
+17:37:13.087 [main] INFO  Server.testServerProperties - Printing all properties
+17:37:13.112 [main] DEBUG Server.testServerProperties - derpalerpa
+17:37:13.113 [main] DEBUG Server.testServerProperties - DBusername is bidsm
+17:37:13.113 [main] DEBUG Server.testServerProperties - DBipaddress is bisql01
+17:37:13.113 [main] DEBUG Server.testServerProperties - DBname is bidsm
+17:37:13.114 [main] DEBUG Server.testServerProperties - testprop is derpalerpa
+17:37:13.114 [main] DEBUG Server.testServerProperties - DBpassword is YMt8pXt$4ymr
+17:37:40.992 [main] INFO  Server.testServerProperties - Printing all properties
+17:37:41.005 [main] DEBUG Server.testServerProperties - DBusername=bidsm
+17:37:41.005 [main] DEBUG Server.testServerProperties - DBipaddress=bisql01
+17:37:41.005 [main] DEBUG Server.testServerProperties - DBname=bidsm
+17:37:41.005 [main] DEBUG Server.testServerProperties - testprop=derpalerpa
+17:37:41.005 [main] DEBUG Server.testServerProperties - DBpassword=YMt8pXt$4ymr
+17:50:10.394 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+17:50:10.402 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+17:50:12.654 [main] DEBUG Server.Database.Database - InetAdress was build from string
+17:50:56.157 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+17:50:56.171 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+17:50:56.173 [main] DEBUG Server.Database.Database - InetAdress was build from string
+17:50:56.173 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+17:50:56.197 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+17:50:56.197 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is closed
+17:50:56.197 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+17:50:56.457 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+17:51:17.053 [main] DEBUG Server.Database.Database - Building new InetAdress object from string
+17:51:17.062 [main] DEBUG Server.Database.Database - The ip string is: bisql01
+17:51:17.064 [main] DEBUG Server.Database.Database - InetAdress was build from string
+17:51:17.064 [main] INFO  Server.Database.MySQLDatabase - Trying to open connection to the database
+17:51:17.091 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+17:51:17.091 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is closed
+17:51:17.091 [main] DEBUG Server.Database.MySQLDatabase - jdbc:mysql://192.168.223.21/bidsm?user=bidsm&password=YMt8pXt$4ymr&useSSL=false
+17:51:17.369 [main] INFO  Server.Database.MySQLDatabase - Connection was opened
+17:51:17.369 [main] INFO  Server.Database.MySQLDatabase - Closing database connection
+17:51:17.369 [main] DEBUG Server.Database.MySQLDatabase - Verifying if the connection is open
+17:51:17.369 [main] DEBUG Server.Database.MySQLDatabase - SQL connection isClose: false
+17:51:17.369 [main] DEBUG Server.Database.MySQLDatabase - SQL connection is opened
+17:51:17.370 [main] INFO  Server.Database.MySQLDatabase - Trying to close
+17:51:17.370 [main] INFO  Server.Database.MySQLDatabase - Connection was closed successfully
