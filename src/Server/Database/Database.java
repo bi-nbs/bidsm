@@ -8,6 +8,9 @@ import java.net.Inet4Address;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+/**
+ * Abstract database class that will be used to model a database connection.
+ */
 public abstract class Database {
     private final String name;
     private final String username;
@@ -17,6 +20,13 @@ public abstract class Database {
 
     private static Logger logger = LogManager.getLogger();
 
+    /**
+     * This is the default constructor for the database class. It requires information about the database that will be used when working with the database.
+     * @param name Name of the database. This should match the actual name of the database that is going to be used.
+     * @param username Username that is used to connect to the database.
+     * @param password Password for the database
+     * @param ip This should be the ip of the mysql server. It must have the following format xxx.xxx.xxx.xxx, example: 192.168.0.12.
+     */
     public Database(String name,String username, String password, String ip) {
         this.name = name;
         this.username = username;
@@ -44,27 +54,27 @@ public abstract class Database {
 
     public abstract void openConnection();
 
-    public boolean isConnectionOpen() {
+    boolean isConnectionOpen() {
         return connectionOpen;
     }
 
-    void setConnectionOpen(boolean connectionOpen) {
+    protected void setConnectionOpen(boolean connectionOpen) {
         this.connectionOpen = connectionOpen;
     }
 
-    public String getUsername() {
+    protected String getUsername() {
         return username;
     }
 
-    public String getPassword() {
+    protected String getPassword() {
         return password;
     }
 
-    public InetAddress getIp() {
+    InetAddress getIp() {
         return ip;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 }

@@ -15,7 +15,7 @@ public class TestMySQLDatabase {
 
     @BeforeEach
     public void beforeEach(){
-            database = new MySQLDatabase("bidsmtest01","testUser", "gMS8ynaKEIIv6Oiy", "bisql01");
+            database = new MySQLDatabase("bidsm","bidsm", "YMt8pXt$4ymr", "bisql01");
     }
 
     @Test

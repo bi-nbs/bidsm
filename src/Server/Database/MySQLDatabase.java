@@ -22,7 +22,7 @@ public class MySQLDatabase extends Database{
     public void openConnection() {
         logger.info("Trying to open connection to the database");
 
-        String connectionString = "jdbc:mysql://"+ this.getIp().getHostAddress() +"/" + this.getName() + "?" + "user=" + this.getUsername() + "&password=" + this.getPassword();
+        String connectionString = "jdbc:mysql://"+ this.getIp().getHostAddress() +"/" + this.getName() + "?" + "user=" + this.getUsername() + "&password=" + this.getPassword() + "&" + "useSSL=false";
 
         try{
             logger.debug(connectionString);
