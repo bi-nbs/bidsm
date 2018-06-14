@@ -34,6 +34,11 @@ public abstract class Database {
         this.ip = this.buildInetAddressFromString(ip);
     }
 
+    /**
+     * Function creates an Inet4Address object using the ip field.
+     * @param ip ip is the address that will be used when creating the inet object
+     * @return A InetAddress object is returned
+     */
     private InetAddress buildInetAddressFromString(String ip){
         logger.debug("Building new InetAdress object from string");
         logger.debug("The ip string is: " + ip);
