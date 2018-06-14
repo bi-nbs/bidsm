@@ -17,7 +17,6 @@ public class MySQLDatabase extends Database{
 
     /**
      * Opens a connection to a MySQL database using the information that was provided through the constructor.
-     *
      */
     @Override
     public void openConnection() {
@@ -42,6 +41,9 @@ public class MySQLDatabase extends Database{
         }
     }
 
+    /**
+     * Closes the connection to the database if it is currently open.
+     */
     @Override
     public void closeConnection() {
         logger.info("Closing database connection");
@@ -58,6 +60,10 @@ public class MySQLDatabase extends Database{
         }
     }
 
+    /**
+     * Tests if the connection to the database is open.
+     * @return returns true if the connection is open and false if it is closed.
+     */
     @Override
     public boolean isConnectionOpen() {
         logger.debug("Verifying if the connection is open");
