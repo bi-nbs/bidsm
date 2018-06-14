@@ -2,10 +2,9 @@ package Server.Host;
 
 import java.net.InetAddress;
 
-public class WindowsHost extends Host {
+public class WindowsHost extends HostAbstract {
 
-
-    public WindowsHost(int ID, InetAddress ip, String name) {
+    public WindowsHost(int ID, String ip, String name) {
         super(ID, ip, name);
     }
 }
