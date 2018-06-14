@@ -1,4 +1,4 @@
-package Server.Database;
+package Server.Backend;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -40,7 +40,7 @@ public class MySQLDatabase extends Database{
             }
         }
         else {
-            logger.info("Database connection is already opened");
+            logger.info("Backend connection is already opened");
         }
     }
 

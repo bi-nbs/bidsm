@@ -1,6 +1,5 @@
-package Server.Database;
+package Server.Backend;
 
-import com.mysql.cj.log.Log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

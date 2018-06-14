@@ -1,4 +1,4 @@
-package Server.Database;
+package Server.Backend;
 
 import Server.ServerProperties;
 
