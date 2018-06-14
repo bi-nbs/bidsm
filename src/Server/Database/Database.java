@@ -57,6 +57,9 @@ public abstract class Database {
         return tempInetAdress;
     }
 
+    /**
+     * This abstract class must be implemented and should open a connection to the specified database.
+     */
     public abstract void openConnection();
 
     boolean isConnectionOpen() {
