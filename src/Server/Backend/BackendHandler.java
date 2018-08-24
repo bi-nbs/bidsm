@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import java.net.Inet4Address;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 /**
  * A backend handler is used to handle a single database based on the configuration files.
@@ -51,24 +52,12 @@ public class BackendHandler implements Backend{
     }
 
     @Override
-    public Host getHostByID(int id) {
-        ResultSet resultSet = null;
+    public List<Host> getAllHosts() {
+        return this.database.getAllHosts();
+    }
 
-        Integer hostID = null;
-        String hostName = null;
-        String hostIP = null;
-
-        try {
-            resultSet = this.database.getHostByID(id);
-            resultSet.absolute(1);
-            hostID = resultSet.getInt(1);
-            hostName = resultSet.getString(2);
-            hostIP = resultSet.getInt(3) + "." + resultSet.getInt(4) + "." + resultSet.getInt(5) + "." + resultSet.getInt(6);
-        } catch (SQLException e) {
-            logger.error("Query could not be executed");
-            logger.error(e.getMessage());
-        }
-
-        return new LinuxHost(hostID, hostIP, hostName);
+    @Override
+    public void updateHost(Host host) {
+        this.database.updateHost(host);
     }
 }

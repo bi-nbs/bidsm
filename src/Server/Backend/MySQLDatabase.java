@@ -1,9 +1,13 @@
 package Server.Backend;
 
+import Server.Host.Host;
+import Server.Host.LinuxHost;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MySQLDatabase extends Database{
     private Connection SQLConnection;
@@ -21,7 +25,7 @@ public class MySQLDatabase extends Database{
     @Override
     public void openConnection() {
         logger.info("Trying to open connection to the database");
-        String connectionString = "jdbc:mysql://"+ this.getIp().getHostAddress() +"/" + this.getName() + "?" + "user=" + this.getUsername() + "&password=" + this.getPassword() + "&" + "useSSL=false";
+        String connectionString = "jdbc:mysql://"+ this.getIp().getHostAddress() +"/" + this.getName() + "?" + "user=" + this.getUsername() + "&password=" + this.getPassword() + "&" + "useSSL=false" + "&serverTimezone=Europe/Copenhagen";
 
         if (!this.isConnectionOpen()) {
             try {
@@ -96,14 +100,47 @@ public class MySQLDatabase extends Database{
             return preparedStatement.executeQuery();
     }
 
-    /**
-     * Returns a resultset for a host based on the id. Uses the executeQuery method.
-     * @param id id of the host
-     * @return returns a resultset containing information about the host
-     * @throws SQLException Exception is thrown if the database fails to deliver the information.
-     */
     @Override
-    ResultSet getHostByID(int id) throws SQLException {
-        return this.executeQuery("SELECT * FROM `bidsm`.`Hosts` WHERE ID=" + id + ";");
+    public List<Host> getAllHosts() {
+        List<Host> hosts = new ArrayList<>();
+        String queryString =    "SELECT `ID`,`Name`,`IPv41`,`IPv42`,`IPv43`,`IPv44`" +
+                                "FROM `bidsm`.`Hosts` " +
+                                "LIMIT 1000;";
+        try {
+            ResultSet resultSet = this.executeQuery(queryString);
+
+            while (resultSet.next()){
+                int ID = resultSet.getInt("ID");
+                String name = resultSet.getString("Name");
+                String IP = resultSet.getString("IPv41") + "." +
+                            resultSet.getString("IPv42") + "." +
+                            resultSet.getString("IPv43") + "." +
+                            resultSet.getString("IPv44");
+                hosts.add(new LinuxHost(ID, IP, name));
+            }
+
+
+        } catch (SQLException e) {
+            logger.info(e.getMessage());
+        }
+
+        return hosts;
+    }
+
+    @Override
+    public void updateHost(Host host) {
+        String queryString =    "SELECT `ID`,`Name`,`IPv41`,`IPv42`,`IPv43`,`IPv44`" +
+                                "FROM `bidsm`.`Hosts` " +
+                                "WHERE ID = " + host.getID();
+
+        try {
+            ResultSet resultSet = this.executeQuery(queryString);
+            resultSet.absolute(0);
+            resultSet.updateString("Name", host.getName());
+            resultSet.updateRow();
+        } catch (SQLException e) {
+            logger.info(e.getMessage());
+        }
+
     }
 }

@@ -2,8 +2,11 @@ package Server.Backend;
 
 import Server.Host.Host;
 
+import java.util.List;
+
 public interface Backend {
 
-    public Host getHostByID(int id);
+    public List<Host> getAllHosts();
 
+    public void updateHost(Host host);
 }

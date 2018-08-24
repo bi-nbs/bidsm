@@ -24,4 +24,17 @@ public abstract class HostAbstract implements Host {
     public String getName() {
         return name;
     }
+
+    public void setName(String name){
+
+    }
+
+    @Override
+    public String toString() {
+        return "HostAbstract{" +
+                "ID=" + ID +
+                ", ip='" + ip + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

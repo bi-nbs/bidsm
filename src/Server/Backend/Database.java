@@ -12,7 +12,7 @@ import java.sql.SQLException;
 /**
  * Abstract database class that will be used to model a database connection.
  */
-abstract class Database {
+abstract class Database implements Backend{
     private final String name;
     private final String username;
     private final String password;
@@ -73,8 +73,6 @@ abstract class Database {
      * @return Returns a bool that is true if the database connection is open and false if it is closed.
      */
     public abstract boolean isConnectionOpen();
-
-    abstract ResultSet getHostByID(int id) throws SQLException;
 
     protected void setConnectionOpen(boolean connectionOpen) {
         this.connectionOpen = connectionOpen;
